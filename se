@@ -75,6 +75,12 @@ xkb_symbols "prog" {
     key <SPCE>  { [space        , space        , space           , nobreakspace ] };
 
     key <LSGT>  { [less         , greater      , bar             , brokenbar    ] };
+
+    key <AB01> { [         z,          Z, less,    greater ]	};
+    key <AB02> { [         x,          X, greater,    greater ]	};
+    key <AB03> { [         c,          C, brokenbar,    greater ]	};
+
+
     include "kpdl(comma)"
 
     include "level3(ralt_switch)"
