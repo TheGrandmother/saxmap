@@ -78,7 +78,7 @@ xkb_symbols "prog" {
 
     key <AB01> { [         z,          Z, less,    greater ]	};
     key <AB02> { [         x,          X, greater,    greater ]	};
-    key <AB03> { [         c,          C, brokenbar,    greater ]	};
+    key <AB03> { [         c,          C, bar,    greater ]	};
 
 
     include "kpdl(comma)"
